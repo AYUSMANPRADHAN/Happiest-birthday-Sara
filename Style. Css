@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.message {
+    font-size: 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: hotpink;
+}
+
+.slider img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    object-fit: cover;
+}
